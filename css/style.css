@@ -179,56 +179,7 @@ hr {
 
 }
 
-/* 
-.header li::after,
-.header li::after,
-.header li::after,
-.header li::after,
-.header li::before,
-.header li::before,
-.header li:before,
-.header li::before {
-    content: "";
-    position: absolute;
-    display: block;
-    border: 0px solid transparent;
-}
 
-.header li::after,
-.header li::after,
-.header li::after,
-.header li::after {
-    width: 0%;
-    height: 80%;
-    border-top: 2px solid #fff;
-    border-bottom: 2px solid rgb(212, 23, 23);
-    transition: all 0.3s ease;
-}
-
-.header li::before,
-.header li::before,
-.header li::before,
-.header li::before {
-    width: 120%;
-    height: 0%;
-    border-left: 2px solid #fff;
-    border-right: 2px solid #fff;
-    transition: all 0.5s ease;
-}
-
-.header li:hover::after,
-.header li:hover::after,
-.header li:hover::after,
-.header li:hover::after {
-    height: 80%;
-}
-
-.header li:hover::before,
-.header li:hover::before,
-.header li:hover::before,
-.header li:hover:before {
-    width: 120%;
-} */
 
 /*
 .Home::before,
@@ -315,7 +266,7 @@ hr {
 /******************************* Start Hero **************************************/
 
 .hero {
-    background-image: url("/images/banner-1.jpg");
+    background-image: url("../images/banner-1.jpg");
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -473,28 +424,28 @@ hr {
 }
 
 .promo-icons .item-1 {
-    background: url("/images/services.png")no-repeat 0px 0px;
+    background: url("../images/services.png")no-repeat 0px 0px;
     background-size: 60px;
     height: 60px;
     width: 60px;
 }
 
 .promo-icons .item-2 {
-    background: url("/images/services.png")no-repeat scroll 0px -104px;
+    background: url("../images/services.png")no-repeat scroll 0px -104px;
     background-size: 60px;
     height: 60px;
     width: 60px;
 }
 
 .promo-icons .item-3 {
-    background: url("/images/services.png")no-repeat scroll 0px -206px;
+    background: url("../images/services.png")no-repeat scroll 0px -206px;
     background-size: 60px;
     height: 60px;
     width: 60px;
 }
 
 .promo-icons .item-4 {
-    background: url("/images/services.png")no-repeat scroll 0px -309px;
+    background: url("../images/services.png")no-repeat scroll 0px -309px;
     background-size: 60px;
     height: 60px;
     width: 60px;
@@ -504,7 +455,7 @@ hr {
 
 /****************************** Start Product ******************************************************/
 .products {
-    background-image: url("/images/our-products.jpg");
+    background-image: url("../images/our-products.jpg");
     background-attachment: fixed;
     background-position: 50% 333.067px;
     padding: 50px 0;
